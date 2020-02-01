@@ -1,0 +1,93 @@
+.header{
+	height: 100vh;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+header .header .navbar{
+	background: inherit;
+	border: 0;
+}
+header .header .navbar .navbar-brand{
+	margin-left: 9.375vw;
+	margin-right: 30vw;
+<div class="block_1">
+          <div class="text_1-left">
+            <p><span class="text_1-1"> introducing lucid theme</span></p>
+            <p><span class="text_1-2">Carefully crafted and beautiful landing page.</span></p>
+            <span class="text_1-3"> Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</span>
+            <div class="buttons">
+              <button type="button" class="btn btn-info button_1">Download now</button>
+              <button type="button" class="btn btn-info button_2">view features</button>
+            </div>
+          </div>
+          <div class="phones_container">
+            <img class="phones" src="img/phones.png" alt="iphone">
+          </div>
+        </div>
+      </div>	
+
+
+
+
+
+
+
+
+
+
+
+header .header .navbar{
+	padding: 0;
+}
+header .header .navbar .navbar-brand .logo{
+	width: 150%;
+	height: 150%;
+}
+header .header .navbar .collapse .navbar-nav > li > a{
+	font-weight: bold;
+	color: white;
+	font-size: 150%;
+}
+body header .BG_1{
+	display: flex;
+	position: absolute;
+	z-index: -10;
+	width: 100vw;
+	height: 80vh;
+	display: flex;
+}
+header .header .navbar .collapse .nav .active_link{
+	border-bottom: 2px solid #008ed6;
+}
+header .header .text_1-left{
+	width: 540px;
+	margin-left: 10vw;
+	margin-top: 300px;
+}
+header .header .text_1-left .text_1-1{
+	color: #008ed6;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+header .header .text_1-left .text_1-2{
+	font-size: 50px;
+	color: white;
+	font-weight: bolder;
+}
+header .header .text_1-left .text_1-3{
+	font-size: 20px;
+	color: #999999;
+	font-weight: 500;
+}
+.phones{
+	position: absolute;
+	z-index: 10;
+	margin-left: 950px;
+	margin-top: -400px;
+	height: 605px;
+	width: 619px;
+}
+.block_1{
+
+}
